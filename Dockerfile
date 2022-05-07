@@ -1,6 +1,6 @@
 FROM greycilik/cilikuserbot:buster
 
-RUN git clone -b Cilik-Userbot https://github.com/Hans-userboot/Hans-userboot /home/hans-userboot/ \
+RUN git clone -b Hanssu-userbot https://github.com/Hans-userboot/Hans-userboot /home/hans-userboot/ \
     && chmod 777 /home/hans-userboot \
     && mkdir /home/hans-userboot/bin/
 
